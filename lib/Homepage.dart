@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   itemBuilder: (context, index) => Card(
                           child: (MaterialButton(
+                        elevation: 0,
                         onPressed: () {
                           player.play('music/beat ($index).wav');
                         },
